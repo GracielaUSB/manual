@@ -19,8 +19,7 @@ macOS
 Para instalar Graciela en macOS es necesario cumplir los 
 siguientes requisitos:
 
-- **Command Line Tools** o **Xcode**. Se puede descargar Xcode (alrededor de 4GB) desde https://developer.apple.com/downloads o
-sólo los comandos necesarios desde la terminal usando el comando::
+- **Command Line Tools** o **Xcode**. Se puede descargar Xcode (alrededor de 4GB) desde https://developer.apple.com/downloads o sólo los comandos necesarios desde la terminal usando el comando::
 
     $ xcode-select --install
 

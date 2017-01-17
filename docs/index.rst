@@ -13,8 +13,7 @@ Contenidos:
    :glob:
 
    installation
-   readme
-   usage
+   lenguaje-basico
    authors
 
 .. Indices and tables

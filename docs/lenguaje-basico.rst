@@ -76,16 +76,16 @@ Se declaran utilizando la palabra reservada ``array`` y tienen base cero (empiez
 
 La declaración de un arreglo con *<Número>* elementos de tipo *<Tipo>* es la siguiente::
 
-  var <Identificador> : array [<Número>] of <Tipo>;
+  array [<Número>] of <Tipo>;
   
 """"""""""""""""""""""""""""
-Arreglos multiidimensionales
+Arreglos multidimensionales
 """"""""""""""""""""""""""""
 
 Son similares a los arreglos unidimensionales, la diferencia siendo que se puede otorgar más de una dimensión al mismo. Cada una de estas dimensiones tiene base cero y es almacenada usando una estrategia *row-major*.
 
-La declaración de un arreglo multidimensional con *<Número_0> x <Número_1>* elementos de tipo *<Tipo>* es la siguiente::
+La declaración de un arreglo multidimensional con :math:`<Número_0> x <Número_1>` elementos de tipo *<Tipo>* es la siguiente::
 
-  var <Identificador> : array [<Número_0>, <Número_1>] of <Tipo>;
+  array [<Número_0>, <Número_1>] of <Tipo>;
 
 Es importante notar que los tipos ``array [<Número_0>] of array [<Número_1>] of <Tipo>`` y ``array [<Número_0>, <Número_1>] of <Tipo>`` son tipos distintos. El primero representa a un arreglo unidimensional de *<Número_0>* arreglos unidimensionales, cada uno de *<Número_1>* valores de tipo *<Tipo>*. El segundo es un arreglo de dos dimensiones, siendo la primera *<Número_0>* y la segunda *<Número_1>*, de valores de tipo *<Tipo>*.

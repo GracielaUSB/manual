@@ -9,7 +9,7 @@ Linux
 Para instalar Graciela en Debian o en distribuciones de Linux 
 derivadas de Debian (Ubuntu, Mint, Elementary, etc.):
   
-- Descargar el paquete deb más reciente para la distribución (:code:`debian` o :code:`ubuntu`) y la arquitectura que corresponda a tu computador (:code:`i386` o :code:`amd64`) en https://github.com/GracielaUSB/graciela-debian/releases.
+- Descargar el paquete deb más reciente para la distribución (:code:`debian` o :code:`ubuntu`) y la arquitectura (:code:`i386` o :code:`amd64`) que corresponda a tu computador en https://github.com/GracielaUSB/graciela-debian/releases.
 - Ejecutar el archivo descargado.
 
 -----
